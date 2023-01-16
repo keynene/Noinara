@@ -66,9 +66,9 @@ function App() {
       {/* Navbar */}
       <Navbar bg="light" variant="light">
         <Container>
-          <Navbar.Brand href="/" >NOI ·_· NARA</Navbar.Brand>
+          <Navbar.Brand href="https://keynene.github.io/Noinara/" >NOI ·_· NARA</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link onClick={()=>{ navigate('/') }} >Home</Nav.Link>
+            <Nav.Link onClick={()=>{ navigate('https://keynene.github.io/Noinara/') }} >Home</Nav.Link>
             <Nav.Link onClick={()=>{ navigate('/detail/0') }} >Detail</Nav.Link>
             <Nav.Link onClick={()=>{ navigate('/cart') }} >Cart</Nav.Link>
             <Nav.Link onClick={()=>{ navigate('/memo') }} >Memo</Nav.Link>
