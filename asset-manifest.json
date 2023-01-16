@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/Noinara/static/css/main.4e05a7a9.css",
-    "main.js": "/Noinara/static/js/main.bacb8a9c.js",
-    "static/js/768.27725c53.chunk.js": "/Noinara/static/js/768.27725c53.chunk.js",
-    "static/js/149.0cb80376.chunk.js": "/Noinara/static/js/149.0cb80376.chunk.js",
-    "static/js/511.9d84b3bc.chunk.js": "/Noinara/static/js/511.9d84b3bc.chunk.js",
-    "static/js/787.386c5b95.chunk.js": "/Noinara/static/js/787.386c5b95.chunk.js",
-    "static/js/881.b17c029f.chunk.js": "/Noinara/static/js/881.b17c029f.chunk.js",
+    "main.js": "/Noinara/static/js/main.8c46df7a.js",
+    "static/js/768.b5c8ab4d.chunk.js": "/Noinara/static/js/768.b5c8ab4d.chunk.js",
+    "static/js/149.2b777979.chunk.js": "/Noinara/static/js/149.2b777979.chunk.js",
+    "static/js/511.76e38f95.chunk.js": "/Noinara/static/js/511.76e38f95.chunk.js",
+    "static/js/787.e09319bd.chunk.js": "/Noinara/static/js/787.e09319bd.chunk.js",
+    "static/js/881.a902da23.chunk.js": "/Noinara/static/js/881.a902da23.chunk.js",
     "service-worker.js": "/Noinara/service-worker.js",
     "static/media/bg.png": "/Noinara/static/media/bg.616f307c169b743ff920.png",
     "index.html": "/Noinara/index.html",
     "main.4e05a7a9.css.map": "/Noinara/static/css/main.4e05a7a9.css.map",
-    "main.bacb8a9c.js.map": "/Noinara/static/js/main.bacb8a9c.js.map",
-    "768.27725c53.chunk.js.map": "/Noinara/static/js/768.27725c53.chunk.js.map",
-    "149.0cb80376.chunk.js.map": "/Noinara/static/js/149.0cb80376.chunk.js.map",
-    "511.9d84b3bc.chunk.js.map": "/Noinara/static/js/511.9d84b3bc.chunk.js.map",
-    "787.386c5b95.chunk.js.map": "/Noinara/static/js/787.386c5b95.chunk.js.map",
-    "881.b17c029f.chunk.js.map": "/Noinara/static/js/881.b17c029f.chunk.js.map"
+    "main.8c46df7a.js.map": "/Noinara/static/js/main.8c46df7a.js.map",
+    "768.b5c8ab4d.chunk.js.map": "/Noinara/static/js/768.b5c8ab4d.chunk.js.map",
+    "149.2b777979.chunk.js.map": "/Noinara/static/js/149.2b777979.chunk.js.map",
+    "511.76e38f95.chunk.js.map": "/Noinara/static/js/511.76e38f95.chunk.js.map",
+    "787.e09319bd.chunk.js.map": "/Noinara/static/js/787.e09319bd.chunk.js.map",
+    "881.a902da23.chunk.js.map": "/Noinara/static/js/881.a902da23.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4e05a7a9.css",
-    "static/js/main.bacb8a9c.js"
+    "static/js/main.8c46df7a.js"
   ]
 }
