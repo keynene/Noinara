@@ -66,14 +66,14 @@ function App() {
       {/* Navbar */}
       <Navbar bg="light" variant="light">
         <Container>
-          <Navbar.Brand href="https://keynene.github.io/Noinara/" >NOI ·_· NARA</Navbar.Brand>
+          <Navbar.Brand href="Noinara/" >NOI ·_· NARA</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link onClick={()=>{ navigate('https://keynene.github.io/Noinara/') }} >Home</Nav.Link>
-            <Nav.Link onClick={()=>{ navigate('https://keynene.github.io/Noinara/detail/0') }} >Detail</Nav.Link>
-            <Nav.Link onClick={()=>{ navigate('https://keynene.github.io/Noinara/cart') }} >Cart</Nav.Link>
-            <Nav.Link onClick={()=>{ navigate('https://keynene.github.io/Noinara/memo') }} >Memo</Nav.Link>
-            <Nav.Link onClick={()=>{ navigate('https://keynene.github.io/Noinara/about') }} >About</Nav.Link>
-            <Nav.Link onClick={()=>{ navigate('https://keynene.github.io/Noinara/event') }} >Event</Nav.Link>
+            <Nav.Link onClick={()=>{ navigate('Noinara/') }} >Home</Nav.Link>
+            <Nav.Link onClick={()=>{ navigate('Noinara/detail/0') }} >Detail</Nav.Link>
+            <Nav.Link onClick={()=>{ navigate('Noinara/cart') }} >Cart</Nav.Link>
+            <Nav.Link onClick={()=>{ navigate('Noinara/memo') }} >Memo</Nav.Link>
+            <Nav.Link onClick={()=>{ navigate('Noinara/about') }} >About</Nav.Link>
+            <Nav.Link onClick={()=>{ navigate('Noinara/event') }} >Event</Nav.Link>
           </Nav>
           <Nav className="ms-auto">
             {/* { result.isLoading ? '로딩중' : '반가워요, ' + result.data.name } */}
