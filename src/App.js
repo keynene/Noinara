@@ -66,7 +66,7 @@ function App() {
       {/* Navbar */}
       <Navbar bg="light" variant="light">
         <Container>
-          <Link className="navbar-brand" onClick={()=>{ navigate('Noinara/') }} >NOI ·_· NARA</Link>
+          <Nav.Link className="navbar-brand" onClick={()=>{ navigate('Noinara/') }} >NOI ·_· NARA</Nav.Link>
           <Nav className="me-auto">
             <Nav.Link onClick={()=>{ navigate('Noinara/') }} >Home</Nav.Link>
             <Nav.Link onClick={()=>{ navigate('Noinara/detail/0') }} >Detail</Nav.Link>
