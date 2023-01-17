@@ -66,12 +66,12 @@ function App() {
       {/* Navbar */}
       <Navbar bg="light" variant="light">
         <Container>
-          <Navbar.Brand onClick={()=>{ navigate('Noinara/') }} >NOI ·_· NARA</Navbar.Brand>
+          <Link className="navbar-brand" onClick={()=>{ navigate('Noinara/') }} >NOI ·_· NARA</Link>
           <Nav className="me-auto">
             <Nav.Link onClick={()=>{ navigate('Noinara/') }} >Home</Nav.Link>
             <Nav.Link onClick={()=>{ navigate('Noinara/detail/0') }} >Detail</Nav.Link>
             <Nav.Link onClick={()=>{ navigate('Noinara/cart') }} >Cart</Nav.Link>
-            <Nav.Link onClick={()=>{ navigate('Noinara/memo') }} >Memo</Nav.Link>
+            {/* <Nav.Link onClick={()=>{ navigate('Noinara/memo') }} >Memo</Nav.Link> */}
             <Nav.Link onClick={()=>{ navigate('Noinara/about') }} >About</Nav.Link>
             <Nav.Link onClick={()=>{ navigate('Noinara/event') }} >Event</Nav.Link>
           </Nav>
@@ -163,7 +163,7 @@ function App() {
           <Route path="Noinara/cart" element={ <Cart shoes={shoes} /> } />
 
           {/* memo, useMemo페이지 */}
-          <Route path="Noinara/memo" element={ <Memo /> } />
+          {/* <Route path="Noinara/memo" element={ <Memo /> } /> */}
 
           {/* 어바웃페이지 / nested routes 이용 */}
           <Route path='Noinara/about' element={<About/>} >

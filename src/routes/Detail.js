@@ -16,18 +16,19 @@ let YellowBtn = styled.button`
   `
   // bg가 blue이면 color white, 아니면 color black
 
-  let dispatch = useDispatch()
-
-function Detail(props){
-  // useParams() : 유저가 URL파라미터에 입력한 값 가져와줌 (파라미터 사용하기)
-  let {id} = useParams();
-  let product = props.shoes.find((x)=>{ return x.id == id });
-  // let product = props.shoes.find( x => x.id == id)
-
-  let [over, setOver] = useState(true); //2초이내 구매페이지 유무
-  let [isdigit, setIsdigit] = useState(''); //숫자입력 인풋창 밸류값
-  let [protab, setProtab] = useState(0); //탭변경
-  let [fade, setFade] = useState('');
+  
+  function Detail(props){
+    // useParams() : 유저가 URL파라미터에 입력한 값 가져와줌 (파라미터 사용하기)
+    let {id} = useParams();
+    let product = props.shoes.find((x)=>{ return x.id == id });
+    // let product = props.shoes.find( x => x.id == id)
+    
+    let [over, setOver] = useState(true); //2초이내 구매페이지 유무
+    let [isdigit, setIsdigit] = useState(''); //숫자입력 인풋창 밸류값
+    let [protab, setProtab] = useState(0); //탭변경
+    let [fade, setFade] = useState('');
+    
+    let dispatch = useDispatch()
 
   //최근 본 상품 : localStorage에 저장
   useEffect(()=>{
