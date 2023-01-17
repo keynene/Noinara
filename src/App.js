@@ -66,7 +66,7 @@ function App() {
       {/* Navbar */}
       <Navbar bg="light" variant="light">
         <Container>
-          <Navbar.Brand href="Noinara/" >NOI ·_· NARA</Navbar.Brand>
+          <Navbar.Brand href="/" >NOI ·_· NARA</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link onClick={()=>{ navigate('Noinara/') }} >Home</Nav.Link>
             <Nav.Link onClick={()=>{ navigate('Noinara/detail/0') }} >Detail</Nav.Link>
