@@ -66,7 +66,7 @@ function App() {
       {/* Navbar */}
       <Navbar bg="light" variant="light">
         <Container>
-          <Navbar.Brand href="/" >NOI ·_· NARA</Navbar.Brand>
+          <Navbar.Brand onClick={()=>{ navigate('Noinara/') }} >NOI ·_· NARA</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link onClick={()=>{ navigate('Noinara/') }} >Home</Nav.Link>
             <Nav.Link onClick={()=>{ navigate('Noinara/detail/0') }} >Detail</Nav.Link>
@@ -207,7 +207,7 @@ function Card(props){
   let navigate = useNavigate()
   return (
     <Col sm >
-      <div onClick={()=>{ navigate('Noinara/detail/'+props.i) }} >
+      <div onClick={()=>{ navigate('detail/'+props.i) }} >
         <img src={"https://codingapple1.github.io/shop/shoes"+ (props.i+1) +".jpg"} width="80%" />
         <h4>{props.shoes[props.i].title}</h4>
         <p>{props.shoes[props.i].price}</p>
