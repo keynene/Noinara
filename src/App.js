@@ -94,7 +94,7 @@ function App() {
       <Suspense fallback={ <div className="alert alert-warning">⏳...로딩중입니다...</div> }>
         <Routes>
           {/* 메인페이지 */}
-          <Route path="/" element={
+          <Route path="Noinara/" element={
             <div>
               {/* MainImg */}
               <div className="main-bg"></div> 
@@ -157,22 +157,22 @@ function App() {
             </div>
           } ></Route>
           {/* 상세페이지 / url파라미터 이용 */}
-          <Route path='/detail/:id' element={ <Detail shoes={shoes} /> } />
+          <Route path='Noinara/detail/:id' element={ <Detail shoes={shoes} /> } />
 
           {/* 장바구니페이지 */}
-          <Route path="/cart" element={ <Cart shoes={shoes} /> } />
+          <Route path="Noinara/cart" element={ <Cart shoes={shoes} /> } />
 
           {/* memo, useMemo페이지 */}
-          <Route path="/memo" element={ <Memo /> } />
+          <Route path="Noinara/memo" element={ <Memo /> } />
 
           {/* 어바웃페이지 / nested routes 이용 */}
-          <Route path='/about' element={<About/>} >
+          <Route path='Noinara/about' element={<About/>} >
             <Route path='member' element={<div>멤버페이지</div>} /> {/* /about/member */}
             <Route path='location' element={<div>위치정보</div>} /> {/* /about/location */}
           </Route>
 
           {/* 이벤트페이지 */}
-          <Route path='/event' element={<Event/>} >
+          <Route path='Noinara/event' element={<Event/>} >
             <Route path="one" element={<p>첫 주문시 양배추즙 서비스</p>} />
             <Route path="two" element={<p>생일기념 쿠폰받기</p>} />
           </Route>
