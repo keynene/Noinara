@@ -207,7 +207,7 @@ function Card(props){
   let navigate = useNavigate()
   return (
     <Col sm >
-      <div onClick={()=>{ navigate('/detail/'+props.i) }} >
+      <div onClick={()=>{ navigate('Noinara/detail/'+props.i) }} >
         <img src={"https://codingapple1.github.io/shop/shoes"+ (props.i+1) +".jpg"} width="80%" />
         <h4>{props.shoes[props.i].title}</h4>
         <p>{props.shoes[props.i].price}</p>
