@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Noinara/static/css/main.4e05a7a9.css",
-    "main.js": "/Noinara/static/js/main.0b74dd23.js",
+    "main.js": "/Noinara/static/js/main.783df9d7.js",
     "static/js/768.b5c8ab4d.chunk.js": "/Noinara/static/js/768.b5c8ab4d.chunk.js",
     "static/js/149.2b777979.chunk.js": "/Noinara/static/js/149.2b777979.chunk.js",
     "static/js/511.76e38f95.chunk.js": "/Noinara/static/js/511.76e38f95.chunk.js",
@@ -11,7 +11,7 @@
     "static/media/bg.png": "/Noinara/static/media/bg.616f307c169b743ff920.png",
     "index.html": "/Noinara/index.html",
     "main.4e05a7a9.css.map": "/Noinara/static/css/main.4e05a7a9.css.map",
-    "main.0b74dd23.js.map": "/Noinara/static/js/main.0b74dd23.js.map",
+    "main.783df9d7.js.map": "/Noinara/static/js/main.783df9d7.js.map",
     "768.b5c8ab4d.chunk.js.map": "/Noinara/static/js/768.b5c8ab4d.chunk.js.map",
     "149.2b777979.chunk.js.map": "/Noinara/static/js/149.2b777979.chunk.js.map",
     "511.76e38f95.chunk.js.map": "/Noinara/static/js/511.76e38f95.chunk.js.map",
@@ -20,6 +20,6 @@
   },
   "entrypoints": [
     "static/css/main.4e05a7a9.css",
-    "static/js/main.0b74dd23.js"
+    "static/js/main.783df9d7.js"
   ]
 }
