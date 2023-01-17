@@ -16,6 +16,8 @@ let YellowBtn = styled.button`
   `
   // bg가 blue이면 color white, 아니면 color black
 
+  let dispatch = useDispatch()
+
 function Detail(props){
   // useParams() : 유저가 URL파라미터에 입력한 값 가져와줌 (파라미터 사용하기)
   let {id} = useParams();
